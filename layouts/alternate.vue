@@ -2,7 +2,7 @@
 
 <template>
     <main>
-      <div>default layout</div>
+      <div>alternate layout</div>
       <slot/>
     </main>
 </template>

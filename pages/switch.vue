@@ -1,7 +1,9 @@
 <template>
   <div>
     {{ welcome }}
-
+      <button @click="navigateTo('/')">
+        back
+      </button>
   </div>
 </template>
 
@@ -9,7 +11,7 @@
 definePageMeta({
   layout: 'alternate',
 })
-const welcome = 'welcome back'
+const welcome = 'welcome'
 
 
 </script>
